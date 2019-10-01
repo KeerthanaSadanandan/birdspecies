@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+     
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="Birds Care Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+<meta charset=utf-8 />
+<style>
+  article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+</style>
+      <script>
+         addEventListener("load", function () {
+         	setTimeout(hideURLbar, 0);
+         }, false);
+         
+         function hideURLbar() {
+         	window.scrollTo(0, 1);
+         }
+      </script>
+      
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    
+      <link href="css/font-awesome.css" rel="stylesheet">
+      
+      <link rel="stylesheet" href="css/lightbox.css">
+      
+      <link href="css/popup-box.css" rel="stylesheet" type="text/css" media="all" />
+     
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="//fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+      <link href="//fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+      </head>
+   <body>
+     <section class="service py-lg-4 py-md-3 py-sm-3 py-3" id="service">
+         <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Services</h3>
+            <div class="row text-center">
+              
+            <div class="col-lg-6 text-center">
+		    <img id="blah" src="#" alt="." style="width:1000px;height:1000px;"/>
+		   
+                  </div>
+               <div class="col-lg-6 col-md-6 jst-color">
+                  <div class="wthree-header-abt text-center">
+                     <h2 class="text-white">Upload your image here..</h2>
+                     <p class="mt-lg-4 mt-3">Based on scientific calculation we will help you to identify the birds..</p>
+                  </div>
+                  </div>
+                  </div>
+                  <div>
+                  <div>
+                  </div>
+                  </div>
+                  </div>
+                    <div>
+                    <head>
+                       <meta charset="utf-8">
+                         <style>
+
+                             #custom-button {
+                                
+                                 
+                                background-color:#2e86c1;
+                                border: none;
+  				color: white;
+ 				padding: 12px 28px;
+				
+  				text-align: center;
+  				text-decoration: none;
+  				display: inline-block;
+  				font-size: 16px;
+  				margin: 4px 2px;
+ 				cursor: pointer;
+}
+                                  }
+
+                                  #custom-button:hover{
+                                  background-color: #5dade2;
+ 
+                                    }
+                                    #custom-text{
+                                    margin-left:100px;
+                                    font-family:sans-serif;
+                                    color:#aaa;
+ 
+                                    }
+.real-file{
+}
+    
+                                </style>
+                            </head>
+
+                        <body> 
+<table>
+<tr>
+                         <input type='file' onchange="readURL(this);" />
+			
+                        <script type="text/javascript">
+                        const realFileBtn = document.getElementById("real-file");
+                        const customBtn = document.getElementById("custom-button");
+                        const customTxt =  document.getElementById("custom-text");
+
+                        customBtn.addEventListener("click",function(){
+
+                        realFileBtn.click();
+                          });
+
+                        realFileBtn.addEventListener("change",function() {
+
+                        if(realFileBtn.value) {
+
+                       customTxt.innerHTML = realFileBtn.value;
+                       } else {
+                      customTxt.innerHTML = "no file choosen";
+                       }
+                       });
+                       </script>
+<script>
+function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result)
+                    .width(500)
+                    .height(500);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
+                  </body>
+                </div>
+                </div>
+                <div>
+
+                <div>
+                   <head>
+                       <meta charset="utf-8">
+                         <style>
+
+			#custom-text{
+				color:  #3498db ;
+				
+ 
+				 
+				    }
+
+                             #custom-button {
+                                
+                                 color:white;
+                                 background-color:  #2e86c1  ;
+                                 border: none;
+ 				 color: white;
+ 				 padding: 10px 24px;
+ 				 text-align: center;
+ 				 text-decoration: none;
+ 				 display: inline-block;
+				 font-size: 16px;
+                                 margin: 4px 2px;
+ 				 cursor: pointer;
+}
+                                  }
+                                  #custom-button:hover{
+                                  background-color: #3498db; 
+}
+                                </style>
+                            </head>
+			    <body>
+                <!--<button type="button" id="custom-button">Submit</button>-->
+		
+                </body>
+                </div>
+                </div>
+                </div>
+
+                </div>
+           </div>   
+       </div>
+     
+                       
+    </section>
+
+
+
+    <script src="js/jquery.magnific-popup.js"></script>
+      <script>
+         $(document).ready(function() {
+         $('.popup-with-zoom-anim').magnificPopup({
+         type: 'inline',
+         fixedContentPos: false,
+         fixedBgPos: true,
+         overflowY: 'auto',
+         closeBtnInside: true,
+         preloader: false,
+         midClick: true,
+         removalDelay: 300,
+         mainClass: 'my-mfp-zoom-in'
+         });
+         
+         });
+      </script>
+     
+      <script src="js/move-top.js"></script>
+      <script src="js/easing.js"></script>
+      <script>
+         jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+               event.preventDefault();
+               $('html,body').animate({
+                  scrollTop: $(this.hash).offset().top
+               }, 900);
+            });
+         });
+      </script>
+      
+      <script>
+         $(document).ready(function () {
+         
+            var defaults = {
+               containerID: 'toTop', // fading element id
+               containerHoverID: 'toTopHover', // fading element hover id
+               scrollSpeed: 1200,
+               easingType: 'linear'
+            };
+         
+         
+            $().UItoTop({
+               easingType: 'easeOutQuart'
+            });
+         
+         });
+      </script>
+     
+      <script src="js/bootstrap.min.js"></script>
+      
+   </body>
+</html>
